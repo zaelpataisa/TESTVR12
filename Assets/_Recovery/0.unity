@@ -1060,6 +1060,7 @@ GameObject:
   - component: {fileID: 358935401}
   - component: {fileID: 358935406}
   - component: {fileID: 358935405}
+  - component: {fileID: 358935407}
   - component: {fileID: 358935408}
   - component: {fileID: 358935409}
   m_Layer: 0
@@ -1211,6 +1212,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &358935407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358935400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: ArmUp
 --- !u!114 &358935408
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1269,6 +1284,7 @@ GameObject:
   - component: {fileID: 387989758}
   - component: {fileID: 387989763}
   - component: {fileID: 387989762}
+  - component: {fileID: 387989764}
   - component: {fileID: 387989765}
   - component: {fileID: 387989766}
   m_Layer: 0
@@ -1420,6 +1436,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &387989764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387989757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: HandLeft
 --- !u!114 &387989765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2455,6 +2485,7 @@ GameObject:
   - component: {fileID: 810030992}
   - component: {fileID: 810030997}
   - component: {fileID: 810030996}
+  - component: {fileID: 810030998}
   - component: {fileID: 810030999}
   - component: {fileID: 810031000}
   m_Layer: 0
@@ -2606,6 +2637,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &810030998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810030991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: ArmDown
 --- !u!114 &810030999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3013,6 +3058,7 @@ GameObject:
   - component: {fileID: 840428584}
   - component: {fileID: 840428589}
   - component: {fileID: 840428588}
+  - component: {fileID: 840428590}
   - component: {fileID: 840428591}
   - component: {fileID: 840428592}
   m_Layer: 0
@@ -3164,6 +3210,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &840428590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840428583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: PillarRight
 --- !u!114 &840428591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3899,6 +3959,7 @@ GameObject:
   - component: {fileID: 1138170430}
   - component: {fileID: 1138170435}
   - component: {fileID: 1138170434}
+  - component: {fileID: 1138170436}
   - component: {fileID: 1138170437}
   - component: {fileID: 1138170438}
   m_Layer: 0
@@ -4050,6 +4111,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1138170436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138170429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: PillarLeft
 --- !u!114 &1138170437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5625,6 +5700,7 @@ GameObject:
   - component: {fileID: 1767489971}
   - component: {fileID: 1767489976}
   - component: {fileID: 1767489975}
+  - component: {fileID: 1767489977}
   - component: {fileID: 1767489978}
   - component: {fileID: 1767489979}
   m_Layer: 0
@@ -5776,6 +5852,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!114 &1767489977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767489970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bf0f9d6a3db4ce45a4e2f08095d70fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRButtonAction
+  robotManager: {fileID: 0}
+  functionToCall: HandRight
 --- !u!114 &1767489978
 MonoBehaviour:
   m_ObjectHideFlags: 0
